@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+  background-color: aquamarine;
+  height: 70px;
+}
+.page-container{
+  height: calc(100vh - 70px);
+  background-color: lightgray;
+  display: flex;
+}
+aside{
+  width: 200px;
+  background-color: blueviolet;
+  flex-shrink: 0;
+}
+main{
+  background-color: bisque;
+  flex-grow: 1;
+  overflow-y: auto;
+}
