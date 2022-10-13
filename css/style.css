@@ -13,7 +13,7 @@ header{
   display: flex;
 }
 aside{
-  width: 200px;
+  width: 180px;
   background-color: blueviolet;
   flex-shrink: 0;
 }
