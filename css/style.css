@@ -4,7 +4,7 @@
     margin: 0px;
 }
 header{
-  background-color: aquamarine;
+  background-color: #f8f9fa;
   height: 70px;
 }
 .page-container{
@@ -14,11 +14,64 @@ header{
 }
 aside{
   width: 180px;
-  background-color: blueviolet;
+  background-color: #061e34;
   flex-shrink: 0;
+  background-image: url(../img/sidebar-bg.png);
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  color: white;
 }
 main{
   background-color: bisque;
   flex-grow: 1;
   overflow-y: auto;
+}
+.aside-nav{
+    width: 100%;
+    flex-grow: 1;
+    
+}
+.aside-foot{
+    margin: auto;
+    width: 100%;
+}
+.aside-icon{
+    font-size: 1.2rem;
+}
+.aside-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding-left: 10px;
+}
+.aside-nav .row{
+    align-items: center;
+    margin-bottom: 7px;
+}
+.aside-foot .row{
+    align-items: center;
+}
+.col-icon{
+    text-align: center;
+    width: 20%;
+}
+.aside-link{
+    width: 80%;
+}
+@media screen and (max-width:992px) {
+    aside{
+        width: 50px;
+        padding: 30px 0px;
+    }
+    .aside-link{
+        display: none;
+    }
+    .aside-nav .row{
+        display: block;
+        text-align: center;
+    }
+    .col-icon{
+        width: 100%;
+    }
 }
