@@ -97,9 +97,22 @@ main{
   }
 .hero{
     background-color: #1c71e8;
+    padding: 25px 20px;
+    color: white;
 }
-.badge{
-    height: 2rem;
+.ms-badge{
+    height: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0,0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.angle-icn{
+    margin-right: 10px;
+    font-size: 1rem;
 }
 @media screen and (max-width:992px) {
     aside{
@@ -115,6 +128,15 @@ main{
     }
     .col-icon{
         width: 100%;
+    }
+    .ms-d-lg{
+        display: none;
+    }
+    .ms-badge{
+        margin-right: 0px;
+    }
+    .angle-icn{
+        margin-right: 0px;
     }
 }
 @media screen and (max-width:992px){
