@@ -94,12 +94,14 @@ aside{
 main{
     flex-grow: 1;
     overflow-y: auto;
+    background-color: white;
   }
 .hero{
     background-color: #1c71e8;
     padding: 15px 20px;
     color: white;
     display: flex;
+    width: 100%;
 }
 .ms-badge{
     height: 20px;
@@ -121,7 +123,30 @@ main{
 #number{
     font-size: 2rem;
 }
-
+table{
+    border: 1px solid #d2d2d2;
+}
+ul li:first-child{
+    background-color: #f7f7f7;
+}
+.cards{
+    padding: 20px 20px;
+}
+.rooms{
+    padding-left: 0px;
+}
+.todo{
+    height: 200px;
+    background-color: red;
+    padding-right: 0px;
+}
+.ms-row{
+    display: flex;
+    justify-content: space-between;
+}
+.list-group-item div:not(:first-child){
+    text-align: center;
+}
 @media screen and (max-width:992px) {
     aside{
         width: 50px;
