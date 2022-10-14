@@ -97,8 +97,9 @@ main{
   }
 .hero{
     background-color: #1c71e8;
-    padding: 25px 20px;
+    padding: 15px 20px;
     color: white;
+    display: flex;
 }
 .ms-badge{
     height: 20px;
@@ -114,6 +115,13 @@ main{
     margin-right: 10px;
     font-size: 1rem;
 }
+.right-hero{
+    margin-bottom: 20px;
+}
+#number{
+    font-size: 2rem;
+}
+
 @media screen and (max-width:992px) {
     aside{
         width: 50px;
@@ -138,6 +146,10 @@ main{
     .angle-icn{
         margin-right: 0px;
     }
+    .hero{
+        display: block;
+        padding-bottom:0px ;
+    }
 }
 @media screen and (max-width:992px){
     header{
@@ -146,6 +158,9 @@ main{
     .logo-col{
         width: 50px;
         margin-right: 10px;
+    }
+    .left-hero{
+        margin-bottom: 20px;
     }
     .container-fluid{
         padding-left: 0px;
