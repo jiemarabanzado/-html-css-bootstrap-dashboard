@@ -4,16 +4,53 @@
     margin: 0px;
 }
 header{
-  background-color: #f8f9fa;
-  height: 70px;
+  background-color: white;
+  height: 60px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+.container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    width: 75%; 
+}
+.mobile-logo{
+    width: 100%;
+}
+
+.search-col{
+    flex-grow: 1;
+}
+#search{
+    width: 100%;
+    height: 40px;
+    background-color: #e5e5e5;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    top: 19px;
+    left: 263px;
+}
+.head-icons{
+    padding: 0px 10px;
+}
+.head-icons i{
+    margin-right: 10px;
 }
 .page-container{
-  height: calc(100vh - 70px);
+  height: calc(100vh - 60px);
   background-color: lightgray;
   display: flex;
 }
 aside{
-  width: 180px;
+  width: 150px;
   background-color: #061e34;
   flex-shrink: 0;
   background-image: url(../img/sidebar-bg.png);
@@ -21,11 +58,6 @@ aside{
   flex-direction: column;
   padding: 30px 20px;
   color: white;
-}
-main{
-  background-color: bisque;
-  flex-grow: 1;
-  overflow-y: auto;
 }
 .aside-nav{
     width: 100%;
@@ -59,6 +91,13 @@ main{
 .aside-link{
     width: 80%;
 }
+main{
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+.hero{
+    background-color: #1c71e8;
+}
 @media screen and (max-width:992px) {
     aside{
         width: 50px;
@@ -73,5 +112,18 @@ main{
     }
     .col-icon{
         width: 100%;
+    }
+}
+@media screen and (max-width:992px){
+    header{
+        padding-left: -12px;
+    }
+    .logo-col{
+        width: 50px;
+        margin-right: 10px;
+    }
+    .container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }

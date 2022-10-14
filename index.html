@@ -12,8 +12,21 @@
 </head>
 <body>
      <header class="container-fluid">
-        <div class=""><img src="img/logo.svg" alt="logo"></div>
-        <div class="search"></div>
+        <div class="logo-col col-lg-2 col-md-1 col-sm-1 col-1">
+            <img class="logo d-none d-lg-block" src="img/logo.svg" alt="logo">
+            <img class="mobile-logo d-lg-none" src="img/mobile-logo.png" alt="">
+
+        </div>
+        <div class="search-col col-8">
+            <input id="search"type="text" placeholder="    Prova a cercare: Lezioni di laravel">
+                <!--<div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>-->
+        </div>
+        <div class="head-icons col-lg-2 col-md-1 col-sm-1 col-1">
+            <i class="fa-solid fa-list "></i>
+            <i class="fa-solid fa-circle-question "></i>
+            <i class="fa-solid fa-ellipsis-vertical "></i>
+
+        </div>   
      </header>
      <div class="page-container">
         <aside class="">
@@ -38,7 +51,13 @@
                 </div>
             </div>
         </aside>
-        <main></main>
+        <main>
+            <section class="hero">
+                <div class="col-8">
+                    <h1>Boolean<span class="badge bg-secondary">New</span></h1>
+                </div>
+            </section>
+        </main>
      </div>
      
      <footer></footer>
