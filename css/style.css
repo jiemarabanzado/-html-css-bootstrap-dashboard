@@ -98,6 +98,9 @@ main{
 .hero{
     background-color: #1c71e8;
 }
+.badge{
+    height: 2rem;
+}
 @media screen and (max-width:992px) {
     aside{
         width: 50px;
