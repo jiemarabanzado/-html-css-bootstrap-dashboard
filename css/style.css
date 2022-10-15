@@ -136,9 +136,8 @@ ul li:first-child{
     padding-left: 0px;
 }
 .todo{
-    height: 200px;
-    background-color: red;
     padding-right: 0px;
+    padding-left: 0px;
 }
 .ms-row{
     display: flex;
@@ -212,6 +211,9 @@ ul li:first-child{
 }
 .action .edit:not(:first-child){
     margin-right: 0px;
+}
+.card{
+    margin-bottom: 20px;
 }
 @media screen and (max-width:992px) {
     aside{
