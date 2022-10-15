@@ -147,6 +147,9 @@ ul li:first-child{
 .list-group-item div:not(:first-child){
     text-align: center;
 }
+.title{
+    flex-grow: 1;
+}
 .add{
     color: #1e72fd;
     font-size: 1.2rem;
@@ -174,6 +177,7 @@ ul li:first-child{
     border: none;
     width: 40px;
     border-radius: 10px;
+    margin: auto;
 }
 .process-status{
     padding: 3px;
@@ -182,6 +186,8 @@ ul li:first-child{
     color: white;
     border: none;
     border-radius: 10px;
+    width: 55px;
+    margin: auto;
 }
 .failed-status{
     padding: 3px;
@@ -190,6 +196,8 @@ ul li:first-child{
     color: white;
     border: none;
     border-radius: 10px;
+    width: 50px;
+    margin: auto;
 }
 .action{
     justify-content: center;
