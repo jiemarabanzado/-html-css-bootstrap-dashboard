@@ -40,9 +40,13 @@ header{
 }
 .head-icons{
     padding: 0px 10px;
+    align-items: center;
 }
 .head-icons i{
     margin-right: 10px;
+}
+.btn-drop{
+    max-width: 100%;
 }
 .page-container{
   height: calc(100vh - 60px);
