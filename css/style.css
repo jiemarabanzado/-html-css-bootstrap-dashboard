@@ -236,6 +236,10 @@ ul li:first-child{
     width: 30px;
     height: 30px;
     margin-right: 10px;
+    transition:0.2s;
+}
+.edit:hover{
+    background-color: rgba(108, 117, 125, 0.5);
 }
 .action .edit:not(:first-child){
     margin-right: 0px;
