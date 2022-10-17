@@ -133,6 +133,24 @@ table{
 ul li:first-child{
     background-color: #f7f7f7;
 }
+.confirm{
+    text-align: center;
+}
+#save{
+    margin-right: 5px;
+    background-color: #1c71e8;
+    width :60px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+}
+#reset{
+    background-color: #ffc007;
+    width:60px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+}
 .cards{
     padding: 20px 20px;
 }
